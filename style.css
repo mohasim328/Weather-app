@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&&display=swap);
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    background: url("backiee-123009.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card {
+    width: 90%;
+    max-width: 460px;
+    background: rgba(0, 0, 0, 0.57);
+    color: #ffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 35px 40px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    max-width: 80%;
+}
+
+.search button {
+    border: none;
+    background: #ebfffc;
+    color: #555;
+    border-radius: 50%;
+    min-height: 60px;
+    min-width: 60px;
+    cursor: pointer;
+}
+
+.weather {
+    display: none;
+}
+
+.weather-icon {
+    height: 90px;
+    margin-top: 20px;
+}
+
+.city,
+.temp {
+    font-size: 40px;
+    font-weight: 450;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.col {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.windspeed,
+.humedity {
+    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.ftr {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.copyh4 {
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 100;
+}
