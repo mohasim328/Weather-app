@@ -24,7 +24,7 @@ html {
     color: #ffff;
     margin: 100px auto 0;
     border-radius: 20px;
-    padding: 35px 40px;
+    padding: 25px 40px;
     text-align: center;
 }
 
@@ -107,4 +107,39 @@ html {
     color: #ffff;
     font-size: 15px;
     font-weight: 100;
+}
+
+@media (max-width:500px) {
+    .card {
+        width: 70%;
+    }
+    .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .weather-icon {
+        height: 50px;
+        margin-top: 5px;
+    }
+    .humedity {
+        text-align: left;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .windspeed {
+        text-align: right;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .windspeed-base {
+        font-size: 15px;
+    }
+    .humedity-base {
+        font-size: 15px;
+    }
+    .details {
+        margin: 0px;
+    }
 }
