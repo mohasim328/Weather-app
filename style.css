@@ -111,7 +111,7 @@ html {
 
 @media (max-width:500px) {
     .card {
-        width: 70%;
+        width: 85%;
     }
     .col {
         display: flex;
