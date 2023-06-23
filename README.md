@@ -1,2 +1,2 @@
 # Weather-app
-weather api OperWeather.ai
+weather api OpenWeather.ai
